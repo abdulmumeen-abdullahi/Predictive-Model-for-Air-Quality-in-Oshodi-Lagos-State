@@ -1,20 +1,31 @@
-# Predictive-Model-for-Air-Quality-in-Oshodi-Lagos-State
-Overview of the Problem
-There is a saying that every household in Nigeria has at least one family member in Lagos. Lagos is the largest city in sub-Saharan Africa and the third fastest-growing city on the continent, with a population exceeding 15 million. However, this rapid growth has brought significant challenges, particularly in air quality management. Air pollution in Lagos poses a major threat to sustainable development and the health of its residents, especially in densely populated areas like Oshodi.
-One of the key issues is the difficulty in forecasting the increase in PM2.5 and other air pollution indices. This challenge often results in inefficient resource allocation for Government agencies and misses opportunities for businesses.
+## Predictive-Model-for-Air-Quality-in-Oshodi-Lagos-State
+### Overview of the Problem <br /> 
+There is a saying that every household in Nigeria has at least one family member in Lagos. Lagos is the largest city in sub-Saharan Africa and the third fastest-growing city on the continent, with a population exceeding 15 million. However, this rapid growth has brought significant challenges, particularly in air quality management. Air pollution in Lagos poses a major threat to sustainable development and the health of its residents, especially in densely populated areas like Oshodi. <br />
+One of the key issues is the difficulty in forecasting the increase in PM2.5 and other air pollution indices. This challenge often results in inefficient resource allocation for Government agencies and misses opportunities for businesses. <br />
+
 This project aims to address these issues by building a predictive model that analyzes PM2.5 trends between December 2017 and January 2018, forecasting future values, and providing actionable insights for policymakers and businesses.
-Data Used
+
+### Data Used
 The dataset for this project was sourced from openAfrica. The original data was in a merged format and was processed into the following columns:
+
 •	Sensor_id: Identification number of the sensors used in recording the values.
+
 •	Sensor_type: Types of sensors used for data collection.
+
 •	Location: Identification of the data collection points.
+
 •	Lat and Lon: Latitude and longitude of the collection points.
+
 •	Timestamp: Date and time of the readings.
+
 •	Value_type: The specific air pollutant captured.
+
 •	Value: The measured value of the pollutant.
-Methodology
-1. Data Preprocessing
+
+### Methodology
+**1. Data Preprocessing**
 •  Split the merged dataset into separate columns.
+
 •  Filtered data to include only readings from sensor_id 7, the P2 value type, and values less than 500.
 •  Renamed the "value" column to P2 and converted timestamps to the Africa/Lagos timezone.
 •  Resampled the P2 values hourly and forward-filled missing values using the mean.
