@@ -5,7 +5,7 @@ One of the key issues is the difficulty in forecasting the increase in PM2.5 and
 This project aims to address these issues by building a predictive model that analyzes PM2.5 trends between December 2017 and January 2018, forecasting future values, and providing actionable insights for policymakers and businesses.
 
 ### Data Used
-The dataset for this project was sourced from [openAfrica]([url](https://open.africa/dataset/sensorsafrica-airquality-archive-oshodi-lagos)). The dataset was in seperate files and was merged into a dataframe. The original data was in a merged format inside a column and was processed into the following columns:
+The dataset for this project was sourced from [openAfrica](https://open.africa/dataset/sensorsafrica-airquality-archive-oshodi-lagos). The dataset was in seperate files and was merged into a dataframe. The original data was in a merged format inside a column and was processed into the following columns:
 
 •	Sensor_id: Identification number of the sensors used in recording the values.
 
@@ -88,6 +88,6 @@ This project demonstrates the potential of predictive modeling in addressing rea
 
 **NOTE**: For deployment in real-world applications or customization to fit specific business needs, feel free to contact me.
 
-[Abdullahi Olalekan Abdulmumeen]([url](https://www.linkedin.com/in/abdulmumeen-abdullahi-olalekan)) <br />
+[Abdullahi Olalekan Abdulmumeen](https://www.linkedin.com/in/abdulmumeen-abdullahi-olalekan) <br />
 Applied Data Scientist <br />
 Olalekanabdulmumeen3@gmail.com
