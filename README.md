@@ -3,8 +3,14 @@ Incase the project file above return an error, you can alternatively access the 
 
 ### Overview of the Problem <br /> 
 There is a saying that every household in Nigeria has at least one family member in Lagos. Lagos is the largest city in sub-Saharan Africa and the third fastest-growing city on the continent, with a population exceeding 15 million. However, this rapid growth has brought significant challenges, particularly in air quality management. Air pollution in Lagos poses a major threat to sustainable development and the health of its residents, especially in densely populated areas like Oshodi. <br />
-One of the key issues is the difficulty in forecasting the increase in PM2.5 and other air pollution indices. This challenge often results in inefficient resource allocation for Government agencies and misses opportunities for businesses. <br />
-This project aims to address these issues by building a predictive model that analyzes PM2.5 trends between December 2017 and January 2018, forecasting future values, and providing actionable insights for policymakers and businesses.
+One of the key issues is the difficulty in forecasting the increase in PM2.5 and other air pollution indices. This challenge often results in inefficient resource allocation for Government agencies and misses opportunities for businesses.
+
+![image](https://github.com/user-attachments/assets/520478fd-6098-4b24-8448-5d16b8acb570)
+
+This project aims to address these issues by building a predictive model that analyzes PM2.5 trends between December 2017 and January 2018, forecasting future values, and providing actionable insights for policymakers and businesses. This aligns with the United Nations Sustainable Development Goals (SDGs):
+
+• SDG Goal 11: Sustainable Cities and Communities, by promoting sustainable urbanization and better air quality management.
+• SDG Goal 3: Good Health and Well-Being, by addressing the health risks posed by air pollution to residents.
 
 ### Data Used
 The dataset for this project was sourced from [openAfrica](https://open.africa/dataset/sensorsafrica-airquality-archive-oshodi-lagos). The dataset was in seperate files and was merged into a dataframe. The original data was in a merged format inside a column and was processed into the following columns:
