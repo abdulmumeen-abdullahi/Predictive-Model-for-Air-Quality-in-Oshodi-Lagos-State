@@ -1,4 +1,6 @@
 ## Predictive Model for Air Quality in Oshodi, Lagos State
+Incase the project file above return an error, you can alternatively access the file by clicking [here](https://nbviewer.org/github/abdulmumeen-abdullahi/Predictive-Model-for-Air-Quality-in-Oshodi-Lagos-State/blob/main/Dec%2017%20-%20Jan%2018%20Air%20Quality%20in%20Oshodi.ipynb).
+
 ### Overview of the Problem <br /> 
 There is a saying that every household in Nigeria has at least one family member in Lagos. Lagos is the largest city in sub-Saharan Africa and the third fastest-growing city on the continent, with a population exceeding 15 million. However, this rapid growth has brought significant challenges, particularly in air quality management. Air pollution in Lagos poses a major threat to sustainable development and the health of its residents, especially in densely populated areas like Oshodi. <br />
 One of the key issues is the difficulty in forecasting the increase in PM2.5 and other air pollution indices. This challenge often results in inefficient resource allocation for Government agencies and misses opportunities for businesses. <br />
